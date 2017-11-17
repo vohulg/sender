@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3912C5A11FBD5EC1007EF256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3912C5A01FBD5EC1007EF256 /* main.m */; };
+		3912C5AE1FBD5F7A007EF256 /* TCyper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3912C5A71FBD5F7A007EF256 /* TCyper.m */; };
+		3912C5AF1FBD5F7A007EF256 /* RNCryptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3912C5A91FBD5F7A007EF256 /* RNCryptManager.m */; };
+		3912C5B01FBD5F7A007EF256 /* TFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3912C5AC1FBD5F7A007EF256 /* TFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		3912C59D1FBD5EC1007EF256 /* sender */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sender; sourceTree = BUILT_PRODUCTS_DIR; };
 		3912C5A01FBD5EC1007EF256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3912C5A71FBD5F7A007EF256 /* TCyper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCyper.m; sourceTree = "<group>"; };
+		3912C5A81FBD5F7A007EF256 /* TCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCommon.h; sourceTree = "<group>"; };
+		3912C5A91FBD5F7A007EF256 /* RNCryptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptManager.m; sourceTree = "<group>"; };
+		3912C5AA1FBD5F7A007EF256 /* TFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFile.h; sourceTree = "<group>"; };
+		3912C5AB1FBD5F7A007EF256 /* RNCryptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptManager.h; sourceTree = "<group>"; };
+		3912C5AC1FBD5F7A007EF256 /* TFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFile.m; sourceTree = "<group>"; };
+		3912C5AD1FBD5F7A007EF256 /* TCyper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCyper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,13 @@
 		3912C59F1FBD5EC1007EF256 /* sender */ = {
 			isa = PBXGroup;
 			children = (
+				3912C5AB1FBD5F7A007EF256 /* RNCryptManager.h */,
+				3912C5A91FBD5F7A007EF256 /* RNCryptManager.m */,
+				3912C5A81FBD5F7A007EF256 /* TCommon.h */,
+				3912C5AD1FBD5F7A007EF256 /* TCyper.h */,
+				3912C5A71FBD5F7A007EF256 /* TCyper.m */,
+				3912C5AA1FBD5F7A007EF256 /* TFile.h */,
+				3912C5AC1FBD5F7A007EF256 /* TFile.m */,
 				3912C5A01FBD5EC1007EF256 /* main.m */,
 			);
 			path = sender;
@@ -119,6 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3912C5AE1FBD5F7A007EF256 /* TCyper.m in Sources */,
+				3912C5AF1FBD5F7A007EF256 /* RNCryptManager.m in Sources */,
+				3912C5B01FBD5F7A007EF256 /* TFile.m in Sources */,
 				3912C5A11FBD5EC1007EF256 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
